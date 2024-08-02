@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="Bikes.BMWBike"/>
+      <class name="Bikes.KawaskiBike"/>
+      <class name="Bikes.SuzukiAccess"/>
+      <class name="Bikes.KTMBike"/>
+      <class name="Shoes.AdidasShoe"/>
+      <class name="Bikes.RoyalEnfield"/>
+      <class name="Shoes.BataShoe"/>
+      <class name="Shoes.NikeShoe"/>
+      <class name="Shoes.PumaShoe"/>
+      <class name="Shoes.ReebokShoe"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test2">
+    <classes>
+      <class name="Bikes.BMWBike"/>
+      <class name="Bikes.KawaskiBike"/>
+      <class name="Bikes.SuzukiAccess"/>
+      <class name="Bikes.KTMBike"/>
+      <class name="Shoes.AdidasShoe"/>
+      <class name="Bikes.RoyalEnfield"/>
+      <class name="Shoes.BataShoe"/>
+      <class name="Shoes.NikeShoe"/>
+      <class name="Shoes.PumaShoe"/>
+      <class name="Shoes.ReebokShoe"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
